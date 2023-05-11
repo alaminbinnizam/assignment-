@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Book Collection</title>
+</head>
+
+<body>
+  <h1>Welcome to the Book Collection</h1>
+  <form id="add-book-form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+    <br>
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" required>
+    <br>
+    <label for="publishedDate">Published Date:</label>
+    <input type="date" id="publishedDate" name="publishedDate">
+    <br>
+    <button type="submit">Add Book</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>  
+        <th>Published Date</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-table-body">
+    </tbody>
+  </table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+  <script>
+    const xhr = new XMLHttpRequest();
+
+    xhr.open('POST', '/books');
+
+    xhr.setRequestHeader('Content-Type', 'application/json');
+
+    xhr.onload = function () {
+      if (xhr.status === 200) {
+        const data = JSON.parse(xhr.responseText);
+        console.log(data);
+      } else {
+        console.error('Request failed. Error code:', xhr.status);
+      }
+    };
+
+    const book = {
+      title: 'New Book',
+      author: 'New Author',
+      publishedDate: '2023-05-11'
+    };
+
+    xhr.send(JSON.stringify(book));
+
+  </script>
+</body>
+
+</html>
