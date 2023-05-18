@@ -1,0 +1,27 @@
+1.What is client-side and server-side in web development, and what is the main difference between the two?
+ans: Client-side refers to the code that runs in the user's browser,
+     while server-side refers to the code that runs on the web server.
+     The main difference is that client-side code executes on the user's device,
+     while server-side code executes on the server. 
+
+2.What is an HTTP request and what are the different types of HTTP requests?
+ans: An HTTP request is a message sent by a client (usually a web browser) to a server,
+     requesting a specific action or resource. The different types of HTTP requests include
+      GET, POST, PUT, DELETE, PATCH, HEAD, and OPTIONS.
+
+3.What is JSON and what is it commonly used for in web development?
+ans: JSON (JavaScript Object Notation) is a lightweight data interchange format widely used in web development.
+     It represents data in key-value pairs and supports nested structures. JSON is commonly used for transmitting
+     data between a server and a web application.
+
+4.What is a middleware in web development, and give an example of how it can be used.
+ans: In web development, middleware refers to software components that sit between the client and the server.
+    They can intercept and process requests or responses. For example, a middleware can be used to authenticate users,
+    handle logging, or modify request parameters before reaching the server.
+
+
+5.What is a controller in web development, and what is its role in the MVC architecture?
+ans: In web development, a controller is a component that handles user requests and manages the flow of data within the
+    Model-View-Controller (MVC) architecture. It receives input from the user, interacts with the model to fetch or modify data,
+    and selects the appropriate view to present the response back to the user. The controller acts as the intermediary 
+    between the user interface and the underlying data and business logic.
