@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Business Website- E-commerce..</title>
+
+	<!--font awesome link-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/4fc7af3382.js" crossorigin="anonymous"></script>
+	<!--Font awesome link ends-->
+
+	<!--Google fonts starts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+	<!--Google fonts ends-->
+	
+	<!--Bootstrap css link-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!--Bootstrap link ends-->
+	<script src="https://kit.fontawesome.com/4fc7af3382.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar-example2">
+		<div class="container">
+			<a href="#" class="navbar-brand">FITIT</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="toggle-icon"><i class="fas fa-bars"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#services" class="nav-link">Services</a>
+					</li>
+					<li class="nav-item">
+						<a href="#portfolio" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#team" class="nav-link">Team</a>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Dropdown 1</a>
+								<a href="#" class="dropdown-item">Dropdown 2</a>
+								<a href="#" class="dropdown-item">Dropdown 3</a>
+								<a href="#" class="dropdown-item">Dropdown 4</a>
+								<a href="#" class="dropdown-item">Dropdown 5</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link" >Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" role="button" class="nav-link getstarted">Get Started</a>
+					</li>
+				</ul>
+				<div class="form-check form-switch">
+					<input class="form-check-input" type="checkbox" id="darkSwitch">
+					<label class="form-check-label" for="darkSwitch">Dark Mode</label>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="message">
+		Dark Mode enabled
+	</div>
+	
+	<!--Banner section starts-->
+	<section class="banner" id="home">
+		<div class="container">
+			<div class="row flex-column-reverse flex-md-row justify-content-center align-items-center">
+				<div class="col-md-6 baner-text mt-4 pt-5">
+					<h2>Better Solutions For Your Business</h2>
+					<p>We are team of talented designers making websites with Bootstrap</p>
+					<button class="btn btn-primary">Get Started</button>
+					<button class="btn"><i class="far fa-play-circle"></i> Watch Video</button>
+				</div>
+				<div class="col-md-6">
+					<img class="img-fluid" src="img/hero-img.png" alt="Business"/>
+				</div>
+			</div>
+		</div>
+		</section>
+		<!--Banner section ends-->
+		<section class="clients">
+			<div class="container">
+				<div class="row row-cols-2 d-flex justify-content-between align-items-center mb-5 p-3 w-100 ms-auto">
+					<div class="col-md-2"><img class="img-fluid" src="img/clients/client-1.png" alt="Client 1" /></div>
+					<div class="col-md-2"><img class="img-fluid" src="img/clients/client-2.png" alt="Client 2" /></div>
+					<div class="col-md-2"><img class="img-fluid" src="img/clients/client-3.png" alt="Client 3" /></div>
+					<div class="col-md-2"><img class="img-fluid" src="img/clients/client-4.png" alt="Client 4" /></div>
+					<div class="col-md-2"><img class="img-fluid" src="img/clients/client-5.png" alt="Client 5" /></div>
+					<div class="col-md-2"><img class="img-fluid" src="img/clients/client-6.png" alt="Client 6" /></div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="about_section" id="about">
+			<div class="container">
+				<h2 class="text-center mb-5 font-weight-bold">ABOUT US</h2>
+					<div class="row g-3">
+						<div class="col-md-6">
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<ul class="lead">
+								<li class="list-item mb-2"><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+								<li class="list-item mb-2"><i class="fas fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+								<li class="list-item mb-2"><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<p class="lead">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="#" role="button" class="btn btn-outline-info">Learn More</a>
+						</div>
+					</div>
+			</div>
+		</section>
+
+		<section class="why_us">
+			<div class="container">
+				<div class="row d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center ms-auto">
+					<div class="col-lg-6 gx-5">
+						<h3>Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h3>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+
+						<!--Accordion starts here-->
+						<div class="accordion" id="our_accordion">
+							<!--Accordion Item one-->
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_one" data-bs-parent="#our_accordion" >
+									<span class="accordion_button_number">01</span> Non consectetur a erat nam at lectus urna duis?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse show" id="accordion_one" data-bs-parent="#our_accordion">
+									<div class="accordion-body lead">
+										Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+									</div>
+								</div>
+							</div>
+							<!--Accordion Item two-->
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_two" data-bs-parent="#our_accordion">
+									<span class="accordion_button_number">02</span>  Feugiat scelerisque varius morbi enim nunc?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse" id="accordion_two" data-bs-parent="#our_accordion">
+									<div class="accordion-body lead">
+										Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+									</div>
+								</div>
+							</div>
+
+							<!--Accordion Item three-->
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_three" data-bs-parent="#our_accordion">
+									<span class="accordion_button_number">03</span> Dolor sit amet consectetur adipiscing elit?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse" id="accordion_three" data-bs-parent="#our_accordion">
+									<div class="accordion-body lead">
+										Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 gx-5">
+						<img class="img-fluid" src="img/why-us.png" alt="Why_us_image">
+					</div>
+			</div>
+		</section>
+
+		<section class="skills">
+			<div class="container">
+				<div class="row d-flex justify-content-center align-items-center">
+					<div class="col-md-6">
+						<img class="skill-image img-fluid" src="img/skills.png" alt="skills" >
+					</div>
+					<div class="col-md-6">
+						<div class="progress_bar_section mt-3">
+							<h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="col-md-12">
+								<div class="d-flex justify-content-between font-weight-bold">
+									<div class="start">HTML</div>
+									<div class="end">100%</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="100" style="width:100%;" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								
+							</div>
+
+							<div class="col-md-12 mt-4">
+								<div class="d-flex justify-content-between font-weight-bold">
+									<div class="start">CSS</div>
+									<div class="end">90%</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="90" style="width:90%;" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								
+							</div>
+
+							<div class="col-md-12 mt-4">
+								<div class="d-flex justify-content-between font-weight-bold">
+									<div class="start text-uppercase">Bootstrap</div>
+									<div class="end">75%</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="75" style="width:75%;" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								
+							</div>
+
+							<div class="col-md-12 mt-4">
+								<div class="d-flex justify-content-between font-weight-bold">
+									<div class="start text-uppercase">Javascript</div>
+									<div class="end">65%</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="65" style="width:65%;" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services " id="services">
+			<div class="container">
+				<div class="services-text">
+					<h2 class="mb-3">SERVICES</h2>
+					<p class="mb-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+				<div class="row flex justify-content-center">
+					<div class="col-md col-sm services-box">
+						<div class="services_inner_text">
+							<i class="fas fa-file-alt mb-3 mt-4"></i>
+							<h3 class="mb-3">Lorem Ipsum</h3>
+							<p class="mb-3">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+						</div>
+					</div>
+
+					<div class="col-md services-box">
+						<div class="services_inner_text">
+							<i class="fas fa-globe mb-3 mt-4"></i>
+							<h3 class="mb-3">Sed ut perspici</h3>
+							<p class="mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+						</div>
+					</div>
+					<div class="col-md services-box">
+						<div class="services_inner_text">
+							<i class="fas fa-tachometer-alt mb-3 mt-4"></i>
+							<h3 class="mb-3">Magni Dolores</h3>
+							<p class="mb-3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+						</div>
+					</div>
+					<div class="col-md services-box">
+						<div class="services_inner_text">
+							<i class="fas fa-boxes mb-3 mt-4"></i>
+							<h3 class="mb-3">Nemo Enim</h3>
+							<p class="mb-3">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="call_to_action">
+			<div class="background_call_to_action">
+				<div class="container">
+					<div class="row d-flex justify-content-center align-items-center">
+						<div class="col-lg-9 call_to_action_text">
+							<h2>Call To Action</h2>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="col-lg-3 button_call">
+							<a href="#" class="btn">Call To Action</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="portfolio_text">
+					<h2 class="">PORTFOLIO</h2>
+					<p class="">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+				<ul class="navbar-na">
+					<li class="nav-item active">
+					  <a class="link1" href="#">All</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">App</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Card</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Web</a>
+					</li>
+					
+				</ul>
+				<div class="portfolio-container">
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-1" src="img/portfolio/portfolio-1.jpg" alt="portfolio-1"/>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img portfolio-2">
+							<img class="img-fluid" src="img/portfolio/portfolio-6.jpg" alt="portfolio-2"/>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-3" src="img/portfolio/portfolio-3.jpg" alt="portfolio-3"/>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-4" src="img/portfolio/portfolio-4.jpg" alt="portfolio-4"/>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-5" src="img/portfolio/portfolio-5.jpg" alt="portfolio-5"/>
+						</div>
+
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-6" src="img/portfolio/portfolio-2.jpg" alt="portfolio-6"/>
+						</div>
+
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-7" src="img/portfolio/portfolio-7.jpg" alt="portfolio-7"/>
+						</div>
+
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-8" src="img/portfolio/portfolio-8.jpg" alt="portfolio-8"/>
+						</div>
+
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio-img">
+							<img class="img-fluid portfolio-9" src="img/portfolio/portfolio-9.jpg" alt="portfolio-9"/>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Start of TEAM section-->
+		<section class="team" id="team">
+			<div class="container">
+				<div class="team-text text-center">
+					<h2>TEAM</h2>
+					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="row team_card_container">
+							<div class="col-4 team_image_container">
+								<img src="img/team/team-1.jpg" class="team_image" alt="Sharah Johnson">
+							</div>
+							<div class="col-8 team_about gx-5">
+								<h3 class="team_name">Walter White</h3>
+								<p class="team-desig">Product Manager</p>
+								<p class="team_about_text">Aut maiores voluptates amet et quis praesentium qui senda </p>
+								<div class="social_media_container">
+									<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row team_card_container">
+							<div class="col-4 team_image_container">
+								<img src="img/team/team-2.jpg" class="team_image" alt="Sharah Johnson">
+							</div>
+							<div class="col-8 team_about gx-5">
+								<h3 class="team_name">Sharah Johnson</h3>
+								<p class="team-desig">Product Manager</p>
+								<p class="team_about_text">Aut maiores voluptates amet et quis praesentium qui senda </p>
+								<div class="social_media_container">
+									<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row team_card_container">
+							<div class="col-4 team_image_container">
+								<img src="img/team/team-3.jpg" class="team_image" alt="Wilium Anderson">
+							</div>
+							<div class="col-8 team_about gx-5">
+								<h3 class="team_name">Wilium Anderson</h3>
+								<p class="team-desig">CTO</p>
+								<p class="team_about_text">Quisquam facilis cum velit laborum corrupti fuga rerum</p>
+								<div class="social_media_container">
+									<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row team_card_container">
+							<div class="col-4 team_image_container">
+								<img src="img/team/team-4.jpg" class="team_image" alt="Amanda Jepson">
+							</div>
+							<div class="col-8 team_about gx-8">
+								<h3 class="team_name">Amanda Jepson</h3>
+								<p class="team-desig">Accountant</p>
+								<p class="team_about_text">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+								<div class="social_media_container">
+									<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!--End of TEAM section-->
+
+		<!--PRICING TABLE STARTS -->
+		<section class="pricing">
+			<div class="container">
+				<div class="pricing_head">
+					<h3>PRICING</h3>
+					<P>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
+				</div>
+				<div class="row">
+					<div class="pricing_individual_container col-md shadow">
+						<div class="price_box">
+							<span class="plan">Free Plan</span>
+							<div class="price"><span>$</span>0</div>
+							<span class="month">per month</span>
+							<ul>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Quam adipiscing vitae proin</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Nulla at volutpat diam uteera</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Nec feugiat nisl pretium</li>
+								<li class="list-unstyled"><i class="fas fa-times"></i> <del> Pharetra massa massa ultricies</del></li>
+								<li class="list-unstyled"><i class="fas fa-times"></i> <del></i> Massa ultricies mi quis hendrerit</del></li>
+							</ul>
+							<a href="#" class="price_btn btn" role="button">Get Started</a>
+						</div>
+					</div>
+
+					<div class="pricing_individual_container col-md shadow">
+						<div class="price_box">
+							<span class="plan">Standard Plan</span>
+							<div class="price"><span>$</span>25</div>
+							<span class="month">per month</span>
+							
+							<ul>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Quam adipiscing vitae proin</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Nulla at volutpat diam uteera</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Nec feugiat nisl pretium</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Pharetra massa massa ultricies</li>
+								<li class="list-unstyled"><i class="fas fa-times"></i> <del>Massa ultricies mi quis hendrerit</del></li>
+							</ul>
+							<a href="#" class="price_btn_standard btn" role="button">Get Started</a>
+						</div>
+					</div>
+
+					<div class="pricing_individual_container col-md shadow">
+						<div class="price_box">
+							<span class="plan">Premium Plan</span>
+							<div class="price"><span>$</span>40</div>
+							<span class="month">per month</span>
+							<ul>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Quam adipiscing vitae proin</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Nulla at volutpat diam uteera</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Nec feugiat nisl pretium</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Pharetra massa massa ultricies</li>
+								<li class="list-unstyled"><i class="fa fa-check"></i> Massa ultricies mi quis hendrerit</li>
+							</ul>
+							<a href="#" class="price_btn btn" role="button">Get Started</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<!--PRICING TABLE ENDS -->
+
+		<!--FREQUENTLY ASKED QUESTION STARTS-->
+		<section class="faq">
+			<div class="container">
+				<div class="faq_head">
+					<h3>FREQUENTLY ASKED QUESTIONS</h3>
+					<P>agnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
+				</div>
+					<!--Accordion starts here-->
+					<div class="accordion m-auto" id="our_second_accordion">
+						<!--Accordion Item one-->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button 
+								class="accordion-button collapsed" 
+								type="button" data-bs-toggle="collapse" data-bs-target="#accordion_one_faq" data-bs-parent="#our_second_accordion" >
+								<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Non consectetur a erat nam at lectus urna duis?
+								</button>
+							</h2>
+							<div class="accordion-collapse collapse show" id="accordion_one_faq" data-bs-parent="#our_second_accordion">
+								<div class="accordion-body lead">
+									Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+								</div>
+							</div>
+						</div>
+						<!--Accordion Item two-->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button 
+								class="accordion-button collapsed" 
+								type="button" data-bs-toggle="collapse" data-bs-target="#accordion_two_faq" data-bs-parent="#our_second_accordion">
+								<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span>  Feugiat scelerisque varius morbi enim nunc?
+								</button>
+							</h2>
+							<div class="accordion-collapse collapse" id="accordion_two_faq" data-bs-parent="#our_second_accordion">
+								<div class="accordion-body lead">
+									Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+								</div>
+							</div>
+						</div>
+
+						<!--Accordion Item three-->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button 
+								class="accordion-button collapsed" 
+								type="button" data-bs-toggle="collapse" data-bs-target="#accordion_three_faq" data-bs-parent="#our_second_accordion">
+								<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Dolor sit amet consectetur adipiscing elit?
+								</button>
+							</h2>
+							<div class="accordion-collapse collapse" id="accordion_three_faq" data-bs-parent="#our_second_accordion">
+								<div class="accordion-body lead">
+									Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+								</div>
+							</div>
+						</div>
+
+
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button 
+								class="accordion-button collapsed" 
+								type="button" data-bs-toggle="collapse" data-bs-target="#accordion_four" data-bs-parent="#our_second_accordion">
+								<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+								</button>
+							</h2>
+							<div class="accordion-collapse collapse" id="accordion_four" data-bs-parent="#our_second_accordion">
+								<div class="accordion-body lead">
+									Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button 
+								class="accordion-button collapsed" 
+								type="button" data-bs-toggle="collapse" data-bs-target="#accordion_five" data-bs-parent="#our_second_accordion">
+								<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+								</button>
+							</h2>
+							<div class="accordion-collapse collapse" id="accordion_five" data-bs-parent="#our_second_accordion">
+								<div class="accordion-body lead">
+									Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--FREQUENTLY ASKED QUESTION ENDS-->
+
+
+		<!--CONTACT SECTION STARTS-->
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="contact_head">
+					<h3>CONTACT</h3>
+					<P>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
+				</div>
+				<div class="row contact_section_flex">
+					<div class="col-lg-5 info_section shadow ">
+						<div class="adress d-flex align-items-center">
+							<i class="fas fa-map-marker-alt info_icon"></i>
+							<div class="adress-text">
+								<h4>Location:</h4>
+								<p>A108 Adam Street, New York, NY 535022</p>
+							</div>
+						</div>
+						<div class="email d-flex align-items-center">
+							<i class="far fa-envelope info_icon"></i>
+							<div class="email-text">
+								<h4>Email:</h4>
+								<p>thisismasud1@gmail.com</p>
+							</div>
+						</div>
+						<div class="call d-flex align-items-center">
+							<i class="fas fa-mobile-alt info_icon"></i>
+							<div class="call-text">
+								<h4>Call:</h4>
+								<p>+88 01345 34005</p>
+							</div>
+						</div>
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.895281959729!2d-73.99104838459549!3d40.69830387933341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a35da2fd673%3A0x218ed6cc00224ef8!2sAdams%20St%2C%20Brooklyn%2C%20NY%2011201%2C%20USA!5e0!3m2!1sen!2sbd!4v1644853453261!5m2!1sen!2sbd" width="420" height="300" style="border:0; width:98%" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+					<div class="col-lg-6 message_section shadow">
+						<form>
+							<div class="row">
+								<div class="col-md-6 mb-4 form-floating">
+									<input type="name" class="form-control" id="floatingInput" placeholder="Your Name"/>
+									<label for="floatingInput" class="floating_label">Your Name</label>
+								</div>
+								<div class="col-md-6 mb-4 form-floating">
+									<input type="email" class="form-control" id="floatingInput" placeholder="Email"/>
+									<label for="floatingInput" class="floating_label">Your Email</label>
+								</div>
+								<div class="col-md-12 mb-4 form-floating">
+									<input type="text" class="form-control" id="floatingInput" placeholder="Email"/>
+									<label for="floatingInput" class="floating_label">Subject</label>
+								</div>
+								<div class="col-md-12 mb-5 form-floating">
+									<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 18rem"></textarea>
+  									<label for="floatingTextarea2" class="floating_label">Comments</label>
+								</div>
+								<button type="button" class="message_button">Send Message</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--CONTACT SECTION ENDS-->
+		<!--NEWSLETTER SECTION-->
+		<section class="newsletter">
+			<div class="container">
+				<h3>Join Our Newsletter</h3>
+				<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+				<div class="input-group mb-3 shadow">
+					<input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Enter Your Email" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+					  <button class="button" type="button">Subscribe</button>
+					</div>
+				  </div>
+			</div>
+		</section>
+		<!--NEWSLETTER SECTION ENDS-->
+	
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 mt-3">
+						<h3>Business</h3>
+						<p class="footer_office_address">A108 Adam Street, New York, NY 535022, United States</p>
+						<br>
+						<span><strong>Phone:</strong> +1 5589 55488 55</span><br>
+						<span><strong>Email:</strong> info@example.com</span>
+					</div>
+					<div class="col-md-3 mt-3">
+						<h4>Useful Navigation</h4>
+						<ul class="footer_ul">
+							<li><i class="fas fa-angle-right"></i><a href="#"> Home</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> About us</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Services</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Terms of service</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 mt-3">
+						<h4>Our Services</h4>
+						<ul class="footer_ul">
+							<li><i class="fas fa-angle-right"></i><a href="#"> Web Design</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Web Development</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Product Management</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Graphic Design</a></li>
+							<li><i class="fas fa-angle-right"></i><a href="#"> Marketing</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 mt-3">
+						<h4>Our Social Networks</h4>
+						<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+						<div class="footer-social d-flex flex-direction-row justify-content-start">
+									<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+									<a href="#" target="_blank"><i class="fab fa-skype img_icon"></i></a>
+									<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+									<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+									<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#home" class="backtotop_button">Back To Top<i class="fas fa-arrow-circle-up"></i></a>
+			<div class="copyright">
+				<div class="container">
+					<div class="copyright_container d-flex justify-content-between">
+						<span>© Copyright All Rights Reserved</span>
+						<span>Rrecreated by <strong>Al Amin Fit.</strong></span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	
+	<!--Bootstrap javascript cdn Starts-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<!--Bootstrap  javascript cdn ends-->
+	<script src="script.js"></script>
+</body>
+</html>
